@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Montserrat", "Heebo";
+}
+
+.my-portfolio-card {
+  border: 1px solid red;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.my-portfolio-card .portfolio-card-image img {
+  width: 100%;
+}
+.my-portfolio-card .portfolio-card-content-wrapper .card-content-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.my-portfolio-card .portfolio-card-content-wrapper .card-title a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
