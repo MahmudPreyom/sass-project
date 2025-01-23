@@ -12,13 +12,28 @@
   margin-bottom: 20px;
   border-radius: 10px;
 }
+.my-portfolio-card .portfolio-card-image {
+  position: relative;
+  display: block;
+}
 .my-portfolio-card .portfolio-card-image img {
   width: 100%;
+}
+.my-portfolio-card .portfolio-card-image .like-icon {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 10px 13px;
+  border-radius: 5px;
+  bottom: 20px;
+  right: 20px;
+  transform: scaleX(-1);
+  font-size: 21px;
 }
 .my-portfolio-card .portfolio-card-content-wrapper .card-content-top {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  color: #74787c;
 }
 .my-portfolio-card .portfolio-card-content-wrapper .card-title a {
   text-decoration: none;
